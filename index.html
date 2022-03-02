@@ -7,19 +7,21 @@
 
     <link rel="stylesheet" href="./assets/css/style.css">
 
+    <script src="./assets/js/api.js" type="text/javascript" defer></script>
+
     <title>Advice Generator App</title>
 </head>
 <body class="home">
     <div class="container">
-        <h2>Advice #117</h2>
-        <strong>
+        <h2>Advice #<span id="id-advice">117</span></h2>
+        <strong id="desc-advice">
             "It is easy to sit up and take notice, what's difficult is getting up and taking action."
         </strong>
         <picture>
             <source media="(max-width: 768px)" srcset="./assets/images/pattern-divider-mobile.svg" />
             <img src="./assets/images/pattern-divider-desktop.svg" alt="Divider" loading="lazy" />
         </picture>
-        <button class="dice">
+        <button class="dice" onclick="fetchApiData()">
             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M20 0H4a4.005 4.005 0 0 0-4 4v16a4.005 4.005 0 0 0 4 4h16a4.005 4.005 0 0 0 4-4V4a4.005 4.005 0 0 0-4-4ZM7.5 18a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z" fill="#202733"/></svg>
         </button>
     </div>
