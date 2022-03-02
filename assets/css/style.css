@@ -57,7 +57,7 @@ img {
   max-width: 325px;
 }
 /* line 51, ../scss/style.scss */
-.home .container h2 {
+.home .container h2, .home .container span {
   margin: 0;
   color: #52ffa8;
   text-transform: uppercase;
@@ -85,4 +85,11 @@ img {
 /* line 76, ../scss/style.scss */
 .home .container button.dice:hover {
   filter: drop-shadow(0 0 10px #52ffa8);
+}
+
+@media (max-width: 768px) {
+  /* line 84, ../scss/style.scss */
+  .home {
+    padding: 0 15px;
+  }
 }
