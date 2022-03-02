@@ -13,3 +13,5 @@ function fetchApiData()
         })
         .catch(error => console.error(error))
 }
+
+fetchApiData()
