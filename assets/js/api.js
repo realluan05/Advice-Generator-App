@@ -5,13 +5,13 @@ function fetchApiData()
     fetch(url)
         .then(response => response.json())
         .then(data => {
-            var id = document.getElementById('id-advice');
-            var desc = document.getElementById('desc-advice');
+            var id_advice = document.getElementById('id-advice');
+            var advice = document.getElementById('advice');
 
-            id.innerHTML = data.slip.id;
-            desc.innerHTML = '"' + data.slip.advice + '"';
+            id_advice.innerHTML = data.slip.id;
+            advice.innerHTML = '"' + data.slip.advice + '"';
         })
         .catch(error => console.error(error))
 }
 
-fetchApiData()
+fetchApiData();
