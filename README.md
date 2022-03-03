@@ -11,4 +11,4 @@ O projeto desenvolvido foi baseado no desafio do site <a href="https://www.front
 - <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db" target="_blank" rel="noreferrer noopener">Frontend Mentor: </a> Website to improve your front-end coding by creating real projects. A API JSON
 - <a href="https://api.adviceslip.com/" target="_blank" rel="noreferrer noopener">API Advice Slip: </a> Advice Slip API is a free API that generates random advice.
 
-<b><a href="https://advice-generator-app-blush.vercel.app/" target="_blank" rel="noreferrer noopener">See the project running.</a></b>
+[See the project running.](https://advice-generator-app-blush.vercel.app/){target="_blank"}
