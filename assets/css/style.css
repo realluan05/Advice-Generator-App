@@ -2,6 +2,7 @@
   font-family: "Manrope";
   src: url("../fonts/Manrope-ExtraBold.ttf");
   font-weight: 800;
+  font-display: swap;
 }
 /* line 4, ../scss/style.scss */
 * {
