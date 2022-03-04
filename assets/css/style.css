@@ -19,27 +19,22 @@ html, body {
 }
 
 /* line 16, ../scss/style.scss */
-ul, ol, li {
-  list-style: none;
-}
-
-/* line 20, ../scss/style.scss */
 a {
   text-decoration: none;
 }
 
-/* line 24, ../scss/style.scss */
+/* line 20, ../scss/style.scss */
 button {
   border: 0;
   background-color: transparent;
 }
 
-/* line 29, ../scss/style.scss */
+/* line 25, ../scss/style.scss */
 img {
   max-width: 100%;
 }
 
-/* line 35, ../scss/style.scss */
+/* line 31, ../scss/style.scss */
 .home {
   background-color: #1f2632;
   width: 100%;
@@ -48,8 +43,8 @@ img {
   align-items: center;
   justify-content: center;
 }
-/* line 43, ../scss/style.scss */
-.home .container {
+/* line 39, ../scss/style.scss */
+.home main {
   position: relative;
   background-color: #323a49;
   border-radius: 10px;
@@ -57,21 +52,21 @@ img {
   text-align: center;
   max-width: 325px;
 }
-/* line 51, ../scss/style.scss */
-.home .container h2, .home .container span {
+/* line 47, ../scss/style.scss */
+.home main h1, .home main span {
   margin: 0;
   color: #52ffa8;
   text-transform: uppercase;
   font-size: 14px;
 }
-/* line 58, ../scss/style.scss */
-.home .container strong {
+/* line 54, ../scss/style.scss */
+.home main strong {
   line-height: 1.5;
   margin: 20px 0;
   display: block;
 }
-/* line 64, ../scss/style.scss */
-.home .container button.dice {
+/* line 60, ../scss/style.scss */
+.home main button.dice {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -83,13 +78,13 @@ img {
   cursor: pointer;
   transition: .2s;
 }
-/* line 76, ../scss/style.scss */
-.home .container button.dice:hover {
+/* line 72, ../scss/style.scss */
+.home main button.dice:hover {
   filter: drop-shadow(0 0 10px #52ffa8);
 }
 
 @media (max-width: 768px) {
-  /* line 84, ../scss/style.scss */
+  /* line 80, ../scss/style.scss */
   .home {
     padding: 0 15px;
   }
